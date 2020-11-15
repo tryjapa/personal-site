@@ -1,0 +1,135 @@
+
+#main{
+	padding:30px 50px;
+	position:relative;
+	width:100%;
+	height: 100vh;
+	box-sizing: border-box;
+	background-size: 1330px;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-image: url("../../images/bg1.png");
+	background-color: #edf1fd;
+}
+#main nav{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-family: calibri;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width:100%;
+	box-sizing: border-box;
+	padding: 10px 50px;
+	background-color:#F4F7FF;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.05); 
+	z-index: 1;
+}
+
+#main ul{
+	list-style:none;
+}
+#main a{
+	text-decoration:none;
+}
+
+.menu{
+	display: flex;
+}
+.menu li a{
+	padding: 10px 15px;
+	color:#6c707c;
+	font-size: 12px;
+	
+}
+.lang{
+	color:#292929;
+}
+.logo{
+	font-size: 25px;
+	font-weight: bold;
+	color:#292929;
+	font-family:Poppins;
+}
+.toggle{
+	display: none;
+}
+.name{
+	font-family: calibri;
+	width: 500px;
+	position: absolute;
+	left: 20%;
+	top: 50%;
+	transform: translate(-20%,-50%);
+}
+.name p:nth-child(1),.name .details{
+	color:#6c707c;
+	font-size: 16px;
+}
+.name h1{
+	font-family:Poppins;
+	font-size: 40px;
+	margin:0px;
+	letter-spacing: 3px;
+	color:#292929;
+}
+.cvBtn{
+	width:200px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #292929;
+	color:#FFFFFF;
+}
+.cvBtn:hover{
+	background-color: #131313;
+	transition: all ease 0.5s;
+}
+.blackLine {
+  align-self: end;
+  width: 50%;
+  height: 15%;
+  margin-bottom: 4em;
+  position: absolute;
+	bottom:0px;
+	left: -3%;
+	border-right: 1px solid  rgba(41,41,41,0.30);
+}
+
+.blackLine::after{
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 11px 11px 0 11px;
+ border-color:  #292929 transparent transparent transparent;
+  right: -.7em;
+  bottom: -2px;
+}
+
+
+.social{
+	position: absolute;
+	left: 50px;
+	bottom: 50px;
+	display: flex;
+
+}
+.social a{
+	margin: 6px 12px;
+
+}
+.social .reactIcons{
+	color:rgba(18,17,17,0.40);
+	font-size: 14px;
+}
+.social a:hover .reactIcons{
+	color:#17d1ac;
+	transition: all ease 0.5s;
+}
