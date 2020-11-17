@@ -1,7 +1,7 @@
 import React from 'react'
 
 import styles from './navbar.module.css'
-import {FaLinkedin, FaFacebookF,FaTwitter} from 'react-icons/fa'
+import {FaLinkedin, FaFacebookF,FaTwitter, FaHamburger} from 'react-icons/fa'
 
 
 const NavBar = () => {
@@ -11,12 +11,11 @@ const NavBar = () => {
 	
 	<a href="#" className={styles.logo} >Thiago Yamaguchi</a>
 	
-	<div className={styles.toggle}></div>
+	<FaHamburger className={styles.toggle}/>
 	<ul className={styles.menu}>
 	<li className={styles.active}><a href="#main" >Home</a></li>	
 	<li><a href="#about">About</a></li>	
 	<li><a href="#services">Services</a></li>	
-	<li><a href="#portfolio">Portfolio</a></li>		
 	<li><a href="#contact-form">Contact</a></li>	
 	</ul>
 	
@@ -28,7 +27,7 @@ const NavBar = () => {
 	
 	<h1>I'm <font color="#17d1ac">Thiago</font> Yamaguchi</h1>
 	
-	<p className={styles.details}>I´m 29 years old, maried, father of a little girl, gamer, developer... </p>
+	<p className={styles.details}>I´m 29 years old, father of a little girl, married, developer, gamer...</p>
 	
 	<a href="#" className={styles.cvBtn}>Download CV</a>
 	
