@@ -7,7 +7,7 @@ const Services = () => {
 	
             <div className={styles["s-heading"]}>
             <h1>Services</h1>
-            <p>Here Is The Some Servies Which We Provide You.</p>
+            <p>Here Are Some Servies I Provide You.</p>
             </div>
            
                 <div className={styles["b-container"]}>                
