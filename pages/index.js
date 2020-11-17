@@ -1,6 +1,6 @@
 import NavBar from "../components/Navbar"
 import AboutUs from "../components/AboutUs"
-import Services from "../components/Services"
+import Services from "../components/services"
 import ContactUs from "../components/ContactUs"
 function Home(){
     return (
